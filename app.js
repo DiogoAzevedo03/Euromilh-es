@@ -34,7 +34,8 @@ app.get('/', function (req, res) {
 app.get('/euro', function (req, res) {
     res.setHeader('Content-Type', 'application/json');
     console.log(gerarchave());
-    res.send('{"numeros": [1, 2, 3, 4, 5], "estrelas": [1, 2, 3], "geradapor": "Diogo Azevedo"}');
+    //res.send('{"numeros": [1, 2, 3, 4, 5], "estrelas": [1, 2, 3], "geradapor": "Diogo Azevedo"}');
+    res.send(gerarchave());
 });
 
 app.listen(3000, function () {

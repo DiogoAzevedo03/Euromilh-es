@@ -36,7 +36,7 @@ function consomeChaveJSON(chavejson) {
 
 function gerachave(e) {
 
-    fetch('http://localhost:3000/euro')
+    fetch('https://euromilh-es.onrender.com/euro')
         .then((res => res.json()))
         .then((data) => {
             updatechave(data);
