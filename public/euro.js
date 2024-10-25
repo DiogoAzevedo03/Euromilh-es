@@ -23,7 +23,7 @@ function gerachaveJSON() {
     chaveJS = {
         numeros: an,
         estrelas: ae,
-        geradapor : 'pedromoreira'
+        geradapor : 'Diogo Azevdo'
     }
     return JSON.stringify(chaveJS);
 
